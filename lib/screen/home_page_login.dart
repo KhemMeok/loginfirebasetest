@@ -5,8 +5,11 @@ class MyHomeLogin extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      body: Center(child: Text('login sucess')),
+    return   Scaffold(
+      appBar: AppBar(actions: const [
+         Text('hi')
+      ]),
+      body: const Center(child: Text('login sucess')),
     );
   }
 }
